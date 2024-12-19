@@ -1,0 +1,61 @@
+header nav ul li a{ 
+    text-decoration:none;
+    color: blue;
+}
+header nav ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+.titre-2{
+    color: yellow;
+}
+#paragraph1{
+    color: green;
+}
+/*selecteur descendant (espace)*/
+.descendant-selector h1  {
+
+    background-color: yellow;
+}
+/*selecteur enfant(>)*/
+.child-selector>ul{
+    background-color: orangered;
+}
+/*selecteur frère adjacent(+)*/
+li  p {
+background-color: blueviolet;
+}
+/*sélecteur général de frères et soeurs(-)*/
+li p{
+    background-color: green;
+}
+a:link{
+    color: black;
+}
+
+a:visited{
+    color: darkgrey;
+}
+a:hover{
+    color: yellow;
+}
+a:active{
+    color: blue;
+}
+.para1{
+    padding: 70px;
+    border: 3px solid olive;
+}
+.para2{
+    margin: 70px; 
+    border: 3px solid gold;
+}
+#mane.jpg{
+    width: 80px;
+    height: 60px;
+}
+.fr{
+    text-align: start;
+}
+
